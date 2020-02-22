@@ -1,4 +1,7 @@
+ #? Tuplas: ()
 lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim', 'Batata Frita')
+
+#? As tuplas são IMUTÁVEIS.
 
 #! Essa é a forma simples de usar o for com uma tubpla, caso não precise de posição:
 for comida in lanche:
