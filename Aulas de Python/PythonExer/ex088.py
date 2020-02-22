@@ -4,8 +4,9 @@
 from random import randint
 from time import sleep
 
+#! Continuar a ideia dos valores dos jogos usando um dicionário.
+
 numeros_mega = list()
-valores = [[6, 4.50], [7, 31.50], [8, 126.00], [9, 378.00], [10, 945.00], [11, 2.079], [12, 4.158], [13, 7.772], [14, 13.513], [15, 22.522]]
 jogos = list()
 total = 1
 apostas = int(input('Quantos jogos você gostaria de fazer? '))
@@ -32,6 +33,4 @@ for indice, lista in enumerate(jogos):
     print(f'Jogo {indice + 1} - {lista}')
     sleep(1)
 print()
-if numeros in valores:
-    print(f'O valor dos seus jogos é de R${valores}')
 print('=' * 10, f' BOA SORTE! ', '=' * 10)
